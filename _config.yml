@@ -3,11 +3,11 @@
 ## Source: https://github.com/tommy351/hexo/
 
 # Site
-title: thought repository
-subtitle:
+title: kick some !!
+subtitle: on the art, science, and general confusion of becoming a smarty-pant
 description:
 author: Ashley Parkes
-email:
+email: ashley@kicksome.me
 language:
 
 # URL
@@ -74,10 +74,10 @@ disqus_shortname:
 # Extensions
 ## Plugins: https://github.com/tommy351/hexo/wiki/Plugins
 ## Themes: https://github.com/tommy351/hexo/wiki/Themes
-theme: light
+theme: thought
 exclude_generator:
 
 # Deployment
 ## Docs: http://zespia.tw/hexo/docs/deploy.html
-deploy: heroku
-  type: whispering-escarpment-2474
+deploy: ##heroku
+  type: ##whispering-escarpment-2474
