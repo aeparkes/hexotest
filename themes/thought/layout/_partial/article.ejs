@@ -5,7 +5,7 @@
   <div class="post-content">
     <header>
       <% if (item.layout != 'page'){ %>
-        <div class="icon"><img src='https://s3-us-west-2.amazonaws.com/kicksomestatic/profilemini.jpg' width='42px' height='42px'></div>
+        <div class="icon"><img src='https://s3-us-west-2.amazonaws.com/kicksomestatic/profilemini.jpg' width='36px' height='36px'></div>
         <time datetime="<%= item.date.toDate().toISOString() %>"><a href="<%- config.root %><%- item.path %>"><%= item.date.format(config.date_format) %></a></time>
       <% } %>
       <%- partial('post/title') %>
