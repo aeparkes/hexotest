@@ -12,8 +12,8 @@ language:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
-root: /
+url: http://guarded-peak-3424.herokuapp.com
+root: /guarded-peak-3424/
 permalink: :year/:month/:day/:title/
 tag_dir: tags
 archive_dir: archives
@@ -79,5 +79,6 @@ exclude_generator:
 
 # Deployment
 ## Docs: http://zespia.tw/hexo/docs/deploy.html
-deploy: ##heroku
-  type: ##whispering-escarpment-2474
+deploy: 
+  type: heroku
+  repository: guarded-peak-3424.herokuapp.com
